@@ -55,7 +55,7 @@ class App extends Component {
       favoriteMovies:[x[6].value, x[7].value, x[8].value],
       title:x[4].value
     }
-   
+   //
     console.log(newCard)
     let cards = this.state.data;
     cards.push(newCard);
