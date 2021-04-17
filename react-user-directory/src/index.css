@@ -1,0 +1,158 @@
+body{
+  background-color: black;
+}
+#cardContainer{
+  background-color: rgb(249, 250, 244);
+  position: fixed;
+  top: 4vw;
+  height: 35vw;
+  left: 20vw;
+  width: 60vw;
+}
+#id{
+  font-size: 2.5vw;
+  position: fixed;
+  top: 4vw;
+  right: 21vw;
+}
+#name{
+  font-size: 3vw;
+  margin-left: 3vw;
+  margin-top: 1.5vw;
+  margin-bottom: 1vw;
+  border-bottom: 4px lightblue solid;
+  width:fit-content;
+   
+}
+.info{
+  font-size: 1.5vw;
+  font-weight: 900;
+  margin-top: .5vw;
+  margin-left: 3vw;
+}
+.info > span{
+  font-size: 1.5vw;
+  margin-left: .5vw;
+  font-weight: 100;
+}
+#movies{
+  font-size: 1.5vw;
+  font-weight: 900;
+  margin-left: 3vw;
+  margin-top: 4vw;
+}
+#movies > ol > li{
+  font-weight: 100;
+  margin-top: .5vw;
+}
+.buttonsContainer{
+  box-sizing: border-box;
+  position: fixed;
+  top: 39vw;
+  padding-top: 1vw;
+  height: 5vw;
+  width: 60vw;
+  left: 20vw;
+  
+}
+#rightArr{
+  float: right;
+}
+.arrow{
+  font-size: 2vw;
+  background-color: inherit;
+  border: none;
+  color: white;
+}
+.arrow:hover{
+  color: green;
+}
+.otherButtonsContainer{
+  padding-left: 15vw;
+  height: 100px;
+}
+.otherButtonsContainer > button{
+  background-color: lightskyblue;
+  font-size: 2vw;
+  margin-left:.5vw;
+  border-radius: 25%;
+}
+.startEdit{
+background-color: rgb(238, 174, 174);
+position: fixed;
+top: 4vw;
+height: 45vw;
+left: 20vw;
+width: 60vw;
+z-index: 2;
+display: block;
+transition: 1s;
+}
+.edit{
+  background-color: rgb(238, 174, 174);
+  position: fixed;
+  top: 4vw;
+  margin-left: 2000px;
+  height: 5vw;
+  left: 20vw;
+  width: 60vw;
+  z-index: 2;
+  display: block;
+  
+}
+#editTitle{
+  margin-left: 25vw;
+  font-size: 3vw;
+  color: red;
+}
+#closeEdit{
+  font-size: 2.5vw;
+  margin-left: 55vw;
+  background-color: inherit;
+  border: none;
+}
+#submitForm{
+  margin-left: 25vw;
+  width: 10vw;
+  font-size: 2vw;
+  margin-top: 2vw;
+  height: 4vw;
+  background-color: lightskyblue;
+  border-radius: 33%;
+}
+#newCard{
+  box-sizing: border-box;
+  z-index:10;
+  background-color: rgb(212, 227, 232);
+  width: 65vw;
+  height: 45vw;
+  position: fixed;
+  margin-left: 18vw;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  display: none;
+
+  
+
+}
+#newCard > input{
+  width: 12vw;
+  height: 2vw;
+  margin-left: 5vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+
+}
+#addNewCard{
+  width: 10vw;
+  height: 2vw;
+  margin-left: 15vw;
+  margin-top: 2vw;
+  background-color: lightblue;
+}
+#closeNewCard{
+  margin-top: 2vw;
+  width: 3vw;
+}

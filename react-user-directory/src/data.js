@@ -1,3 +1,5 @@
+
+
 const data = [
   {
     id: 1,
@@ -276,8 +278,8 @@ const data = [
     name: { first: "Mikaela", last: "Jeannequin" },
     city: "Tha Maka",
     country: "Thailand",
-    employer: null,
-    title: null,
+    employer: 'unemployed',
+    title: 'n/a',
     favoriteMovies: [
       "Book of Love",
       "I Heart Huckabees",
